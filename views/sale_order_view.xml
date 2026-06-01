@@ -1,0 +1,45 @@
+<!-- <odoo>
+    <record id="sale_order_form_inherit_custom_btn" model="ir.ui.view">
+        <field name="name">sale.order.form.custom.button</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//header" position="inside">
+                <button name="action_create_invoice_custom"
+                        type="object"
+                        string="Create Custom Invoice"
+                        class="btn-primary"/>
+            </xpath>
+
+        </field>
+    </record>
+</odoo> -->
+
+
+
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="sale_order_custom_button" model="ir.ui.view">
+        <field name="name">sale.order.custom.button</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+
+        <field name="arch" type="xml">
+
+            <xpath expr="//header" position="inside">
+
+                <button name="action_confirm"
+                        string="My Button"
+                        type="object"
+                        class="btn-primary"/>
+
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo> -->
